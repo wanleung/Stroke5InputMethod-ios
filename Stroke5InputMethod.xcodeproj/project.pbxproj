@@ -1,0 +1,399 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC020AE8196188F40061A620 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC020AE7196188F40061A620 /* main.m */; };
+		BC020AEB196188F40061A620 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BC020AEA196188F40061A620 /* AppDelegate.m */; };
+		BC020AED196188F40061A620 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC020AEC196188F40061A620 /* Images.xcassets */; };
+		BC020AF9196188F50061A620 /* Stroke5InputMethodTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC020AF8196188F50061A620 /* Stroke5InputMethodTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BC020AF3196188F50061A620 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC020ADA196188F40061A620 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC020AE1196188F40061A620;
+			remoteInfo = Stroke5InputMethod;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BC020AE2196188F40061A620 /* Stroke5InputMethod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stroke5InputMethod.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC020AE6196188F40061A620 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC020AE7196188F40061A620 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BC020AE9196188F40061A620 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BC020AEA196188F40061A620 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BC020AEC196188F40061A620 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BC020AF2196188F50061A620 /* Stroke5InputMethodTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Stroke5InputMethodTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC020AF7196188F50061A620 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC020AF8196188F50061A620 /* Stroke5InputMethodTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Stroke5InputMethodTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC020ADF196188F40061A620 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC020AEF196188F50061A620 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC020AD9196188F40061A620 = {
+			isa = PBXGroup;
+			children = (
+				BC020AE4196188F40061A620 /* Stroke5InputMethod */,
+				BC020AF5196188F50061A620 /* Stroke5InputMethodTests */,
+				BC020AE3196188F40061A620 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BC020AE3196188F40061A620 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC020AE2196188F40061A620 /* Stroke5InputMethod.app */,
+				BC020AF2196188F50061A620 /* Stroke5InputMethodTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC020AE4196188F40061A620 /* Stroke5InputMethod */ = {
+			isa = PBXGroup;
+			children = (
+				BC020AE9196188F40061A620 /* AppDelegate.h */,
+				BC020AEA196188F40061A620 /* AppDelegate.m */,
+				BC020AEC196188F40061A620 /* Images.xcassets */,
+				BC020AE5196188F40061A620 /* Supporting Files */,
+			);
+			path = Stroke5InputMethod;
+			sourceTree = "<group>";
+		};
+		BC020AE5196188F40061A620 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC020AE6196188F40061A620 /* Info.plist */,
+				BC020AE7196188F40061A620 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BC020AF5196188F50061A620 /* Stroke5InputMethodTests */ = {
+			isa = PBXGroup;
+			children = (
+				BC020AF8196188F50061A620 /* Stroke5InputMethodTests.m */,
+				BC020AF6196188F50061A620 /* Supporting Files */,
+			);
+			path = Stroke5InputMethodTests;
+			sourceTree = "<group>";
+		};
+		BC020AF6196188F50061A620 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC020AF7196188F50061A620 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC020AE1196188F40061A620 /* Stroke5InputMethod */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC020AFC196188F50061A620 /* Build configuration list for PBXNativeTarget "Stroke5InputMethod" */;
+			buildPhases = (
+				BC020ADE196188F40061A620 /* Sources */,
+				BC020ADF196188F40061A620 /* Frameworks */,
+				BC020AE0196188F40061A620 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Stroke5InputMethod;
+			productName = Stroke5InputMethod;
+			productReference = BC020AE2196188F40061A620 /* Stroke5InputMethod.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BC020AF1196188F50061A620 /* Stroke5InputMethodTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC020AFF196188F50061A620 /* Build configuration list for PBXNativeTarget "Stroke5InputMethodTests" */;
+			buildPhases = (
+				BC020AEE196188F50061A620 /* Sources */,
+				BC020AEF196188F50061A620 /* Frameworks */,
+				BC020AF0196188F50061A620 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC020AF4196188F50061A620 /* PBXTargetDependency */,
+			);
+			name = Stroke5InputMethodTests;
+			productName = Stroke5InputMethodTests;
+			productReference = BC020AF2196188F50061A620 /* Stroke5InputMethodTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC020ADA196188F40061A620 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Wan Leung Wong";
+				TargetAttributes = {
+					BC020AE1196188F40061A620 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					BC020AF1196188F50061A620 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = BC020AE1196188F40061A620;
+					};
+				};
+			};
+			buildConfigurationList = BC020ADD196188F40061A620 /* Build configuration list for PBXProject "Stroke5InputMethod" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BC020AD9196188F40061A620;
+			productRefGroup = BC020AE3196188F40061A620 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC020AE1196188F40061A620 /* Stroke5InputMethod */,
+				BC020AF1196188F50061A620 /* Stroke5InputMethodTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC020AE0196188F40061A620 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC020AED196188F40061A620 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC020AF0196188F50061A620 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC020ADE196188F40061A620 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC020AEB196188F40061A620 /* AppDelegate.m in Sources */,
+				BC020AE8196188F40061A620 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC020AEE196188F50061A620 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC020AF9196188F50061A620 /* Stroke5InputMethodTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BC020AF4196188F50061A620 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC020AE1196188F40061A620 /* Stroke5InputMethod */;
+			targetProxy = BC020AF3196188F50061A620 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BC020AFA196188F50061A620 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BC020AFB196188F50061A620 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC020AFD196188F50061A620 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = Stroke5InputMethod/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BC020AFE196188F50061A620 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = Stroke5InputMethod/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BC020B00196188F50061A620 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Stroke5InputMethod.app/Stroke5InputMethod";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Stroke5InputMethodTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		BC020B01196188F50061A620 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Stroke5InputMethod.app/Stroke5InputMethod";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Stroke5InputMethodTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC020ADD196188F40061A620 /* Build configuration list for PBXProject "Stroke5InputMethod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC020AFA196188F50061A620 /* Debug */,
+				BC020AFB196188F50061A620 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC020AFC196188F50061A620 /* Build configuration list for PBXNativeTarget "Stroke5InputMethod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC020AFD196188F50061A620 /* Debug */,
+				BC020AFE196188F50061A620 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BC020AFF196188F50061A620 /* Build configuration list for PBXNativeTarget "Stroke5InputMethodTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC020B00196188F50061A620 /* Debug */,
+				BC020B01196188F50061A620 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC020ADA196188F40061A620 /* Project object */;
+}
