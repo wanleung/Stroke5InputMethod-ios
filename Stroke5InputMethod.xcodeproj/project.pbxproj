@@ -11,6 +11,15 @@
 		BC020AEB196188F40061A620 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BC020AEA196188F40061A620 /* AppDelegate.m */; };
 		BC020AED196188F40061A620 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC020AEC196188F40061A620 /* Images.xcassets */; };
 		BC020AF9196188F50061A620 /* Stroke5InputMethodTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC020AF8196188F50061A620 /* Stroke5InputMethodTests.m */; };
+		BC020B0C1961890B0061A620 /* KeyboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC020B0B1961890B0061A620 /* KeyboardViewController.m */; };
+		BC020B0F1961890B0061A620 /* com.linkomnia.Stroke5InputMethod.Stroke5Keyboard.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = BC020B061961890A0061A620 /* com.linkomnia.Stroke5InputMethod.Stroke5Keyboard.appex */; };
+		BC020B1719618D3C0061A620 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BC020B1619618D3C0061A620 /* libsqlite3.dylib */; };
+		BC020B1B1961AE0B0061A620 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC020B191961AE0B0061A620 /* ViewController.m */; };
+		BC020B1C1961AE0B0061A620 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC020B1A1961AE0B0061A620 /* ViewController.xib */; };
+		BC020B2219623E320061A620 /* Stroke5Database.m in Sources */ = {isa = PBXBuildFile; fileRef = BC020B2119623E320061A620 /* Stroke5Database.m */; };
+		BC020B2419624EF00061A620 /* stroke5.sqlite3 in Resources */ = {isa = PBXBuildFile; fileRef = BC020B2319624EF00061A620 /* stroke5.sqlite3 */; };
+		BCDA8F321983E8910064698A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCDA8F311983E8910064698A /* QuartzCore.framework */; };
+		BCF55211196DD8A000926035 /* KeyButton.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF55210196DD8A000926035 /* KeyButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -21,7 +30,35 @@
 			remoteGlobalIDString = BC020AE1196188F40061A620;
 			remoteInfo = Stroke5InputMethod;
 		};
+		BC020B0D1961890B0061A620 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC020ADA196188F40061A620 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC020B051961890A0061A620;
+			remoteInfo = Stroke5Keyboard;
+		};
+		BC020B101961890B0061A620 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC020ADA196188F40061A620 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC020B051961890A0061A620;
+			remoteInfo = Stroke5Keyboard;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BC020B151961890B0061A620 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				BC020B0F1961890B0061A620 /* com.linkomnia.Stroke5InputMethod.Stroke5Keyboard.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		BC020AE2196188F40061A620 /* Stroke5InputMethod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stroke5InputMethod.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -33,6 +70,20 @@
 		BC020AF2196188F50061A620 /* Stroke5InputMethodTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Stroke5InputMethodTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC020AF7196188F50061A620 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BC020AF8196188F50061A620 /* Stroke5InputMethodTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Stroke5InputMethodTests.m; sourceTree = "<group>"; };
+		BC020B061961890A0061A620 /* com.linkomnia.Stroke5InputMethod.Stroke5Keyboard.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = com.linkomnia.Stroke5InputMethod.Stroke5Keyboard.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC020B091961890B0061A620 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC020B0A1961890B0061A620 /* KeyboardViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KeyboardViewController.h; sourceTree = "<group>"; };
+		BC020B0B1961890B0061A620 /* KeyboardViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeyboardViewController.m; sourceTree = "<group>"; };
+		BC020B1619618D3C0061A620 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		BC020B181961AE0B0061A620 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BC020B191961AE0B0061A620 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BC020B1A1961AE0B0061A620 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		BC020B2019623E320061A620 /* Stroke5Database.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stroke5Database.h; sourceTree = "<group>"; };
+		BC020B2119623E320061A620 /* Stroke5Database.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stroke5Database.m; sourceTree = "<group>"; };
+		BC020B2319624EF00061A620 /* stroke5.sqlite3 */ = {isa = PBXFileReference; lastKnownFileType = file; path = stroke5.sqlite3; sourceTree = "<group>"; };
+		BCDA8F311983E8910064698A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		BCF5520F196DD8A000926035 /* KeyButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyButton.h; sourceTree = "<group>"; };
+		BCF55210196DD8A000926035 /* KeyButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,14 +101,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BC020B031961890A0061A620 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCDA8F321983E8910064698A /* QuartzCore.framework in Frameworks */,
+				BC020B1719618D3C0061A620 /* libsqlite3.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		BC020AD9196188F40061A620 = {
 			isa = PBXGroup;
 			children = (
+				BCDA8F311983E8910064698A /* QuartzCore.framework */,
+				BC020B1619618D3C0061A620 /* libsqlite3.dylib */,
 				BC020AE4196188F40061A620 /* Stroke5InputMethod */,
 				BC020AF5196188F50061A620 /* Stroke5InputMethodTests */,
+				BC020B071961890A0061A620 /* Stroke5Keyboard */,
 				BC020AE3196188F40061A620 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -67,6 +130,7 @@
 			children = (
 				BC020AE2196188F40061A620 /* Stroke5InputMethod.app */,
 				BC020AF2196188F50061A620 /* Stroke5InputMethodTests.xctest */,
+				BC020B061961890A0061A620 /* com.linkomnia.Stroke5InputMethod.Stroke5Keyboard.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -78,6 +142,9 @@
 				BC020AEA196188F40061A620 /* AppDelegate.m */,
 				BC020AEC196188F40061A620 /* Images.xcassets */,
 				BC020AE5196188F40061A620 /* Supporting Files */,
+				BC020B181961AE0B0061A620 /* ViewController.h */,
+				BC020B191961AE0B0061A620 /* ViewController.m */,
+				BC020B1A1961AE0B0061A620 /* ViewController.xib */,
 			);
 			path = Stroke5InputMethod;
 			sourceTree = "<group>";
@@ -108,6 +175,29 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		BC020B071961890A0061A620 /* Stroke5Keyboard */ = {
+			isa = PBXGroup;
+			children = (
+				BC020B2319624EF00061A620 /* stroke5.sqlite3 */,
+				BCF5520F196DD8A000926035 /* KeyButton.h */,
+				BCF55210196DD8A000926035 /* KeyButton.m */,
+				BC020B2019623E320061A620 /* Stroke5Database.h */,
+				BC020B2119623E320061A620 /* Stroke5Database.m */,
+				BC020B0A1961890B0061A620 /* KeyboardViewController.h */,
+				BC020B0B1961890B0061A620 /* KeyboardViewController.m */,
+				BC020B081961890B0061A620 /* Supporting Files */,
+			);
+			path = Stroke5Keyboard;
+			sourceTree = "<group>";
+		};
+		BC020B081961890B0061A620 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC020B091961890B0061A620 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -118,10 +208,13 @@
 				BC020ADE196188F40061A620 /* Sources */,
 				BC020ADF196188F40061A620 /* Frameworks */,
 				BC020AE0196188F40061A620 /* Resources */,
+				BC020B151961890B0061A620 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				BC020B0E1961890B0061A620 /* PBXTargetDependency */,
+				BC020B111961890B0061A620 /* PBXTargetDependency */,
 			);
 			name = Stroke5InputMethod;
 			productName = Stroke5InputMethod;
@@ -146,6 +239,23 @@
 			productReference = BC020AF2196188F50061A620 /* Stroke5InputMethodTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		BC020B051961890A0061A620 /* Stroke5Keyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC020B121961890B0061A620 /* Build configuration list for PBXNativeTarget "Stroke5Keyboard" */;
+			buildPhases = (
+				BC020B021961890A0061A620 /* Sources */,
+				BC020B031961890A0061A620 /* Frameworks */,
+				BC020B041961890A0061A620 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Stroke5Keyboard;
+			productName = Stroke5Keyboard;
+			productReference = BC020B061961890A0061A620 /* com.linkomnia.Stroke5InputMethod.Stroke5Keyboard.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -161,6 +271,9 @@
 					BC020AF1196188F50061A620 = {
 						CreatedOnToolsVersion = 6.0;
 						TestTargetID = BC020AE1196188F40061A620;
+					};
+					BC020B051961890A0061A620 = {
+						CreatedOnToolsVersion = 6.0;
 					};
 				};
 			};
@@ -178,6 +291,7 @@
 			targets = (
 				BC020AE1196188F40061A620 /* Stroke5InputMethod */,
 				BC020AF1196188F50061A620 /* Stroke5InputMethodTests */,
+				BC020B051961890A0061A620 /* Stroke5Keyboard */,
 			);
 		};
 /* End PBXProject section */
@@ -187,6 +301,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC020B1C1961AE0B0061A620 /* ViewController.xib in Resources */,
 				BC020AED196188F40061A620 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -198,6 +313,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BC020B041961890A0061A620 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC020B2419624EF00061A620 /* stroke5.sqlite3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -205,6 +328,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC020B1B1961AE0B0061A620 /* ViewController.m in Sources */,
 				BC020AEB196188F40061A620 /* AppDelegate.m in Sources */,
 				BC020AE8196188F40061A620 /* main.m in Sources */,
 			);
@@ -218,6 +342,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BC020B021961890A0061A620 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC020B2219623E320061A620 /* Stroke5Database.m in Sources */,
+				BC020B0C1961890B0061A620 /* KeyboardViewController.m in Sources */,
+				BCF55211196DD8A000926035 /* KeyButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -225,6 +359,16 @@
 			isa = PBXTargetDependency;
 			target = BC020AE1196188F40061A620 /* Stroke5InputMethod */;
 			targetProxy = BC020AF3196188F50061A620 /* PBXContainerItemProxy */;
+		};
+		BC020B0E1961890B0061A620 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC020B051961890A0061A620 /* Stroke5Keyboard */;
+			targetProxy = BC020B0D1961890B0061A620 /* PBXContainerItemProxy */;
+		};
+		BC020B111961890B0061A620 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC020B051961890A0061A620 /* Stroke5Keyboard */;
+			targetProxy = BC020B101961890B0061A620 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -365,6 +509,32 @@
 			};
 			name = Release;
 		};
+		BC020B131961890B0061A620 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Stroke5Keyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "com.linkomnia.Stroke5InputMethod.$(TARGET_NAME:rfc1034identifier)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		BC020B141961890B0061A620 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Stroke5Keyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "com.linkomnia.Stroke5InputMethod.$(TARGET_NAME:rfc1034identifier)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -384,6 +554,7 @@
 				BC020AFE196188F50061A620 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BC020AFF196188F50061A620 /* Build configuration list for PBXNativeTarget "Stroke5InputMethodTests" */ = {
 			isa = XCConfigurationList;
@@ -392,6 +563,16 @@
 				BC020B01196188F50061A620 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC020B121961890B0061A620 /* Build configuration list for PBXNativeTarget "Stroke5Keyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC020B131961890B0061A620 /* Debug */,
+				BC020B141961890B0061A620 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
